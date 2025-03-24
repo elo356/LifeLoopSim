@@ -1,2 +1,12 @@
-# LifeLoopSim
-Este proyecto es una simulación de ecosistema donde se generan terrenos procedurales que simulan un entorno natural con organismos que interactúan y evolucionan.
+# Ecosistema Simulado en C++
+
+Este proyecto es una **simulación de ecosistema** desarrollada en **C++** que genera terrenos procedurales y simula organismos con vida propia. Los organismos interactúan con su entorno, se reproducen, evolucionan y responden a los cambios del terreno.
+
+## Características Principales
+
+- **Generación Procedural de Terreno**: El terreno es generado de manera dinámica utilizando **ruido perlin** o **mapas de altura**, creando paisajes naturales como **agua**, **tierra** y **montañas**.
+- **Suavizado del Terreno**: Técnicas de suavizado son aplicadas para hacer que las transiciones entre diferentes tipos de terreno sean más realistas.
+- **Simulación de Organismos**: Los organismos tienen su propio ciclo de vida, se reproducen, buscan recursos y responden a su entorno.
+- **Interacción Dinámica**: Los organismos interactúan entre sí y con su entorno, reaccionando a los cambios de temperatura, recursos y otros factores ambientales.
+- **Evolución y Adaptación**: Los organismos evolucionan con el tiempo, adaptándose a su entorno para sobrevivir y reproducirse.
+- **Auto-suficiencia**: El ecosistema es autónomo, lo que significa que los organismos y el terreno interactúan de manera independiente, generando un entorno dinámico y orgánico.
