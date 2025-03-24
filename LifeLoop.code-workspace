@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "${workspaceRoot}/../../../../libs/openFrameworks"
+		},
+		{
+			"path": "C:\\Users\\elian\\OpenFramework\\addons\\ofxGui"
+		},
+		{
+			"path": "C:\\Users\\elian\\OpenFramework\\addons\\ofxOpenCv"
+		}
+	],
+	"openFrameworksProjectGeneratorVersion": "0.78.0",
+	"settings": {}
+}
