@@ -5,7 +5,6 @@ Este proyecto es una **simulación de ecosistema** desarrollada en **C++** que g
 ## Características Principales
 
 - **Generación Procedural de Terreno**: El terreno es generado de manera dinámica utilizando **ruido perlin** o **mapas de altura**, creando paisajes naturales como **agua**, **tierra** y **montañas**.
-- **Suavizado del Terreno**: Técnicas de suavizado son aplicadas para hacer que las transiciones entre diferentes tipos de terreno sean más realistas.
 - **Simulación de Organismos**: Los organismos tienen su propio ciclo de vida, se reproducen, buscan recursos y responden a su entorno.
 - **Interacción Dinámica**: Los organismos interactúan entre sí y con su entorno, reaccionando a los cambios de temperatura, recursos y otros factores ambientales.
 - **Evolución y Adaptación**: Los organismos evolucionan con el tiempo, adaptándose a su entorno para sobrevivir y reproducirse.
