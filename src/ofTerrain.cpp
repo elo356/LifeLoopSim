@@ -38,7 +38,7 @@ void ofTerrain::DrawCellType(){ //This should be placed on the draw method
             if(currentCell < waterLevel){
                 ofSetColor(0,0,255);
             }
-            else if(currentCell < 150){
+            else if(currentCell < terrainLevel){
 				ofSetColor(139,69,19);
 			}
 			else {
@@ -89,4 +89,7 @@ void ofTerrain::setAltitude(int alti){
 }
 void ofTerrain::setWaterLevel(int lvl){
     waterLevel = lvl;
+}
+void ofTerrain::setTerrainLevel(int lvl){
+    terrainLevel = lvl;
 }

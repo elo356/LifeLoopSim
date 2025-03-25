@@ -21,11 +21,13 @@ class ofTerrain{
         void setScale(float sc);
         void setAltitude(int alti);
         void setWaterLevel(int lv);
+        void setTerrainLevel(int lvl);
         //---------------------------------------------------------
 
         int HEIGHT, WIDTH;
         int altitude;
         int waterLevel;
+        int terrainLevel;
         float scale;
 
         vector<vector<int>> terrain;

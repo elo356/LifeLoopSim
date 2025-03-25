@@ -26,6 +26,7 @@ class ofApp : public ofBaseApp{
 		ofxPanel gui;
 		ofxIntSlider alturaSlider;
 		ofxIntSlider waterSlider;
+		ofxIntSlider terrainSlider;
 		ofxFloatSlider scaleSlider;
 		
 		ofTerrain* terr;
